@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NeoShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css?v=20250120" />
+    <link rel="stylesheet" href="./css/app.css?v=20250120" />
+    <link rel="stylesheet" href="./css/auth.css?v=20250120" />
+    <link rel="stylesheet" href="./css/admin.css?v=20250123" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+         <!-- Favicon -->
+     <link rel="icon" type="image/svg+xml" href="./favicon.svg?v=20250120" />
+     <link rel="icon" type="image/x-icon" href="./favicon.ico?v=20250120" />
+     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?v=20250120" />
+     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png?v=20250120" />
+     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=20250120" />
+     <link rel="manifest" href="./site.webmanifest?v=20250120" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#/welcome" aria-label="NeoShop home">
+          <span class="brand-cube" aria-hidden="true"></span>
+          <span class="brand-text">NeoShop</span>
+        </a>
+        <nav class="nav">
+          <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-list">
+            <li><a href="#/home" class="nav-link">Home</a></li>
+            <li><a href="#/products" class="nav-link">Products</a></li>
+            <li>
+              <a href="#/cart" class="nav-link cart-link">
+                Cart <span class="cart-count" data-cart-count>0</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link" id="wishlist-header-btn">
+                Wishlist <span class="cart-count" data-wishlist-count>0</span>
+              </a>
+            </li>
+            <li id="auth-nav-item">
+              <a href="#/auth" class="nav-link auth-link">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="app" class="app-root">
+      <!-- Views render here -->
+      <section class="view" id="view-root" aria-live="polite"></section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <!-- Main Footer Content -->
+        <div class="footer-main">
+          <!-- Company Info -->
+          <div class="footer-section">
+            <div class="footer-brand">
+              <span class="brand-cube" aria-hidden="true"></span>
+              <span class="brand-text">NeoShop</span>
+            </div>
+            <p class="footer-description">
+              Your premier destination for high-quality products with immersive 3D shopping experience. 
+              Discover, explore, and shop with confidence.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/mr.malik.333" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://x.com/_mr_malik___" class="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/_mrmalik.10/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/muhammad-moeez-5b1197311/" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.youtube.com/" class="social-link" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Customer Service -->
+          <div class="footer-section">
+            <h3 class="footer-title">Customer Service</h3>
+            <ul class="footer-links-list">
+              <li><a href="javascript:void(0)" class="footer-link" id="contact-btn">Contact Us</a></li>
+              <li><a href="javascript:void(0)" class="footer-link" id="returns-btn">Returns & Exchanges</a></li>
+              <li><a href="javascript:void(0)" class="footer-link" id="faq-btn">FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- Company -->
+          <div class="footer-section">
+            <h3 class="footer-title">Company</h3>
+            <ul class="footer-links-list">
+              <li><a href="#" class="footer-link" id="about-btn">About Us</a></li>
+              <li><a href="#" class="footer-link" id="blog-btn">Blog</a></li>
+              <li><a href="#" class="footer-link" id="sustainability-btn">Sustainability</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-section">
+            <h3 class="footer-title">Quick Links</h3>
+            <ul class="footer-links-list">
+              <li><a href="#/home" class="footer-link">Home</a></li>
+              <li><a href="#/products" class="footer-link">All Products</a></li>
+              <li><a href="#/cart" class="footer-link">Shopping Cart</a></li>
+              <li><a href="#" class="footer-link" id="track-order-btn">Track Order</a></li>
+              <li><a href="#" class="footer-link" id="wishlist-btn">Wishlist</a></li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="footer-section">
+            <h3 class="footer-title">Stay Updated</h3>
+            <p class="newsletter-description">
+              Subscribe to our newsletter for exclusive offers, new products, and updates.
+            </p>
+            <form class="newsletter-form" id="newsletter-form">
+              <div class="newsletter-input-group">
+                <input 
+                  type="email" 
+                  placeholder="Enter your email" 
+                  class="newsletter-input" 
+                  id="newsletter-email"
+                  required
+                />
+                <button type="submit" class="newsletter-btn">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+            <div class="newsletter-message" id="newsletter-message"></div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            <p class="copyright">© <span id="year"></span> NeoShop. All rights reserved.</p>
+            <div class="legal-links">
+              <a href="#" class="legal-link" id="privacy-btn">Privacy Policy</a>
+              <a href="#" class="legal-link" id="terms-btn">Terms of Service</a>
+              <a href="#" class="legal-link" id="cookies-btn">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="product-modal" aria-hidden="true" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-dialog" role="document" aria-labelledby="modal-title">
+        <button class="modal-close" data-close-modal aria-label="Close">×</button>
+        <div class="modal-content" id="modal-content">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- App Scripts -->
+    <script>
+      // App configuration (Help Center removed)
+    </script>
+    <script type="module" src="./js/app.js?v=20250123"></script>
+  </body>
+  </html>
+
+

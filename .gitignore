@@ -1,0 +1,66 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+data/*.log
+
+# Dependencies
+node_modules/
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache files
+cache/
+*.cache
+
+# Build outputs
+dist/
+build/
+public/build/
+
+# PHP specific
+composer.phar
+composer.lock
+
+# XAMPP specific
+xampp/
+htdocs/backup/
+
+# Sensitive configuration
+config.local.php
+secrets.php
+
+# Upload directories (if any)
+uploads/
+storage/

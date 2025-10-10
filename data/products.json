@@ -1,0 +1,164 @@
+[
+  {
+    "id": "p-1",
+    "title": "Aurora Headphones",
+    "price": 129.99,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1518447654495-6a1b6e155b43?q=80&w=1200&auto=format&fit=crop",
+    "description": "Immersive over-ear headphones with spatial audio and long-lasting comfort."
+  },
+  {
+    "id": "p-2",
+    "title": "Nebula Smartwatch",
+    "price": 199,
+    "category": "Wearables",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1200&auto=format&fit=crop",
+    "description": "Track health metrics, notifications, and workouts with a crisp AMOLED display."
+  },
+  {
+    "id": "p-3",
+    "title": "Stellar Drone",
+    "price": 549,
+    "category": "Drones",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1200&auto=format&fit=crop",
+    "description": "Compact 4K drone with obstacle avoidance and intelligent flight modes."
+  },
+  {
+    "id": "p-4",
+    "title": "Ion Wireless Charger",
+    "price": 39.5,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
+    "description": "Fast wireless charging pad with soft-touch finish and LED status ring."
+  },
+  {
+    "id": "p-5",
+    "title": "Lumen Desk Lamp",
+    "price": 74.99,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop",
+    "description": "Minimal LED lamp with ambient glow and touch controls."
+  },
+  {
+    "id": "p-6",
+    "title": "Pulse Keyboard",
+    "price": 99,
+    "category": "Peripherals",
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+    "description": "Low-profile mechanical keyboard with hot-swappable switches."
+  },
+  {
+    "id": "p-7",
+    "title": "Nimbus Speaker",
+    "price": 149,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1518441902114-73698357b02a?q=80&w=1200&auto=format&fit=crop",
+    "description": "Portable Bluetooth speaker with deep bass and 12-hour battery."
+  },
+  {
+    "id": "p-8",
+    "title": "Orbit Mouse",
+    "price": 49,
+    "category": "Peripherals",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1200&auto=format&fit=crop",
+    "description": "Ergonomic wireless mouse with precise tracking and silent clicks."
+  },
+  {
+    "id": "p-9",
+    "title": "Echo Action Cam",
+    "price": 259,
+    "category": "Cameras",
+    "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?q=80&w=1200&auto=format&fit=crop",
+    "description": "Waterproof 4K action camera with stabilization and voice control."
+  },
+  {
+    "id": "p-10",
+    "title": "Zen Thermos",
+    "price": 29,
+    "category": "Outdoors",
+    "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop",
+    "description": "Insulated bottle keeps drinks hot or cold for hours with leak-proof lid."
+  },
+  {
+    "id": "p-11",
+    "title": "Vertex Laptop",
+    "price": 1199,
+    "category": "Computers",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1400&auto=format&fit=crop",
+    "description": "Slim 14-inch performance laptop with all-day battery and vibrant display."
+  },
+  {
+    "id": "p-12",
+    "title": "Nova Phone",
+    "price": 899,
+    "category": "Phones",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=1400&auto=format&fit=crop",
+    "description": "Flagship smartphone with pro camera system and 120Hz OLED."
+  },
+  {
+    "id": "p-13",
+    "title": "Aero Backpack",
+    "price": 89,
+    "category": "Bags",
+    "image": "https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=1400&auto=format&fit=crop",
+    "description": "Water-resistant everyday backpack with padded laptop sleeve."
+  },
+  {
+    "id": "p-14",
+    "title": "Focus Lens 50mm",
+    "price": 249,
+    "category": "Cameras",
+    "image": "https://images.unsplash.com/photo-1519183071298-a2962be96f83?q=80&w=1400&auto=format&fit=crop",
+    "description": "Bright 50mm prime lens with creamy bokeh and fast autofocus."
+  },
+  {
+    "id": "p-15",
+    "title": "Echo Earbuds",
+    "price": 129,
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231658?q=80&w=1400&auto=format&fit=crop",
+    "description": "True wireless earbuds with ANC and wireless charging case."
+  },
+  {
+    "id": "p-16",
+    "title": "Glow Light Bar",
+    "price": 59,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1507668077129-56e32842fceb?q=80&w=1400&auto=format&fit=crop",
+    "description": "Ambient desk light bar with adjustable color temperature."
+  },
+  {
+    "id": "p-17",
+    "title": "Stride Desk Mat",
+    "price": 32,
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=1400&auto=format&fit=crop",
+    "description": "Smooth, anti-slip desk mat for mouse and keyboard comfort."
+  },
+  {
+    "id": "p-18",
+    "title": "Fusion Gamepad",
+    "price": 69,
+    "category": "Gaming",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1400&auto=format&fit=crop",
+    "description": "Ergonomic wireless controller with low-latency Bluetooth."
+  },
+  {
+    "id": "p-19",
+    "title": "Travel Mug Pro",
+    "price": 35,
+    "category": "Outdoors",
+    "image": "https://images.unsplash.com/photo-1505575972945-2804b7b25d05?q=80&w=1400&auto=format&fit=crop",
+    "description": "Vacuum-insulated mug with leak-proof flip lid."
+  },
+  {
+    "id": "p-20",
+    "title": "Clarity 27” Monitor",
+    "price": 329,
+    "category": "Displays",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1400&auto=format&fit=crop",
+    "description": "27-inch IPS QHD monitor with slim bezels and 99% sRGB."
+  }
+]
+
+
